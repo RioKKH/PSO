@@ -6,7 +6,7 @@
 class Swarm;
 
 // 定数の定義
-#define TIME_MAX   1000; ///< 最大時刻
+#define TIME_MAX   1000  ///< 最大時刻
 #define SWARM_SIZE 100   ///< 粒子群のサイズ
 #define INERTIA    0.9   ///< 慣性係数
 #define ACCEL_P    0.8   ///< 加速係数(パーソナルベスト)

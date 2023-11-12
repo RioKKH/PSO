@@ -14,7 +14,7 @@ public:
     Dataset *dataset;    // データセット
     Particle **particle; // 粒子群のメンバ
     double *gBestPos;    // グローバルベストの位置
-    double *gBestValue;  // グローバルベストの評価値
+    double gBestValue;   // グローバルベストの評価値
 };
 
 

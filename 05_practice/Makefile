@@ -8,7 +8,7 @@ CPPFLAGS = -g -Wall -std=c++14
 CPPINCLUDES = -I./include
 
 APP = pso
-OBJS = Dataset.o Particle.o Swarm.o sample05.o
+OBJS = Dataset.o Particle.o Swarm.o main.o
 
 all: $(APP)
 build: $(APP)
